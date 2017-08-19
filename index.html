@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:description" content="Featured projects, bio, and contact information for Ryan Steed.">
     <meta name="author" content="Ryan Steed">
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Ryan Steed - Personal Profile" />
     <meta property="og:url" content="https://rsteed11.github.io/"  />
     <meta property="og:image" content="img/RyanSteed_Headshot.jpg" />
     <meta property="og:image:width" content="100" />
-<meta property="og:image:height" content="100" />
+    <meta property="og:image:height" content="100" />
     <meta name="twitter:card" content="summary_large_image">
 
     <title>Ryan Steed - Personal Profile</title>
@@ -25,11 +26,6 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
-
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/scroll.js"></script>
 
   </head>
 
@@ -63,15 +59,18 @@
           <ul class="list-inline intro-social-buttons">
             <li class="list-inline-item">
               <a href="https://github.com/rsteed11" class="btn btn-secondary btn-lg"
-                 data-toggle="tooltip"
-                 title="View independent and collaborative full-stack software development projects, packages, and algorithms."
-                 data-placement="bottom">
+                data-toggle="tooltip"
+                title="Independent or collaborative full-stack software development projects, packages, and algorithms."
+                data-placement="bottom">
                 <i class="fa fa-github fa-fw"></i>
                 <span class="network-name">Github</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/steedryan/" class="btn btn-secondary btn-lg">
+              <a href="https://www.linkedin.com/in/steedryan/" class="btn btn-secondary btn-lg white-tooltip"
+              data-toggle="tooltip"
+              title="Professional profile and resumé."
+              data-placement="bottom">
                 <i class="fa fa-linkedin fa-fw"></i>
                 <span class="network-name">Linkedin</span>
               </a>
@@ -173,7 +172,11 @@ PoliScrape is a web archive scraper intended to collect, search and analyze fore
             <h2 class="section-heading">
               About
             </h2>
-            <p class="lead">Ryan Steed is a software engineer, quantitative model designer, subject matter analyst, and student. He is a software developer at the Laboratory for Unconventional Conflict Analysis and Simulation (<a target="_touch" href="http://css-lucas.com/">LUCAS</a>) in Duke University's Social Science Research Institute. He graduated from the North Carolina School of Science and Mathematics in 2017 and is currently studying Economics and Computer Science at George Washington University.</p>
+            <p class="lead">
+              Ryan Steed is a software engineer, quantitative model designer, subject matter analyst, and student.
+              He graduated from the North Carolina School of Science and Mathematics in 2017 and is currently studying Economics and Computer Science at George Washington University.
+              He is Lead Modeler at the Laboratory for Unconventional Conflict Analysis and Simulation (<a target="_touch" href="http://css-lucas.com/">LUCAS</a>) in Duke University's Social Science Research Institute.
+            </p>
           </div>
           <div class="col-lg-5 mr-auto order-lg-1">
             <img class="img-fluid" src="img/RyanSteed_Headshot.jpg" alt="">
@@ -196,7 +199,7 @@ PoliScrape is a web archive scraper intended to collect, search and analyze fore
             <h2>Contact</h2>
             <div class="col-md-2">
               <br />
-              <p>ryansteed@gwu.edu</p>
+              <p>ryansteed@gwu.edu</br>ryan.steed@duke.edu</br></p>
             </div>
           </div>
           <div class="col-lg-6 my-auto">
@@ -208,7 +211,7 @@ PoliScrape is a web archive scraper intended to collect, search and analyze fore
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/steedryan/" class="btn btn-secondary btn-lg">
+                <a href="https://www.linkedin.com/in/steedryan/" class="btn btn-secondary btn-lg white-tooltip">
                   <i class="fa fa-linkedin fa-fw"></i>
                   <span class="network-name">Linkedin</span>
                 </a>
@@ -247,6 +250,12 @@ PoliScrape is a web archive scraper intended to collect, search and analyze fore
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
 
   </body>
 
