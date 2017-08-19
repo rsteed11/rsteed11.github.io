@@ -1,29 +1,21 @@
 {
-  "title": "Landing Page",
-  "name": "startbootstrap-landing-page",
-  "version": "4.0.0-alpha",
-  "description": "An HTML landing page template built with Bootstrap",
+  "title": "Ryan Steed - Personal Profile",
+  "name": "Ryan Steed's Personal Profile",
+  "version": "1.0",
+  "description": "Featured projects, bio, and contact information for Ryan Steed.",
   "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
+    "Ryan Steed",
+    "Ryan",
+    "Steed",
+    "software development",
+    "Ryan Brannon Steed"
   ],
-  "homepage": "http://startbootstrap.com/template-overviews/landing-page",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
-    "email": "feedback@startbootstrap.com"
-  },
+  "homepage": "https://rsteed11.github.io/",
   "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
+  "author": "Ryan Steed",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+    "url": "https://github.com/rsteed11/rsteed11.github.io"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
