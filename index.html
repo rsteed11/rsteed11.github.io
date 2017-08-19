@@ -5,8 +5,12 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta property="og:description" content="Featured projects, bio, and contact information for Ryan Steed.">
+    <meta name="author" content="Ryan Steed">
+    <meta property="og:title" content="Ryan Steed - Personal Profile" />
+    <meta property="og:url" content="https://rsteed11.github.io/"  />
+    <meta property="og:image" content="img/RyanSteed_Headshot.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
 
     <title>Ryan Steed - Personal Profile</title>
 
@@ -20,7 +24,9 @@
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/scroll.js"></script>
 
   </head>
@@ -54,7 +60,10 @@
           <hr class="intro-divider">
           <ul class="list-inline intro-social-buttons">
             <li class="list-inline-item">
-              <a href="https://github.com/rsteed11" class="btn btn-secondary btn-lg">
+              <a href="https://github.com/rsteed11" class="btn btn-secondary btn-lg"
+                 data-toggle="tooltip"
+                 title="View independent and collaborative full-stack software development projects, packages, and algorithms."
+                 data-placement="bottom">
                 <i class="fa fa-github fa-fw"></i>
                 <span class="network-name">Github</span>
               </a>
