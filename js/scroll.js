@@ -26,6 +26,7 @@ $(function() {
 				}
 
 				deltaScroll = $window.scrollTop() - scroll;
+				console.log(deltaScroll)
 
 				// if we don't have to scroll because we're already at the right scrolling level,
 				if (!deltaScroll) {
