@@ -150,16 +150,12 @@ p.copyright {
  http://jsfiddle.net/YYPKM/3/
  */
 
-a[ id= "servicios" ]:target ~ #main article.panel {
+a[ id= "about" ]:target {
     -webkit-transform: translateY( 0px);
     transform: translateY( 0px );
 }
 
-a[ id= "galeria" ]:target ~ #main article.panel {
+a[ id= "contact" ]:target {
     -webkit-transform: translateY( -500px );
     transform: translateY( -500px );
-}
-a[ id= "contacto" ]:target ~ #main article.panel {
-    -webkit-transform: translateY( -1000px );
-    transform: translateY( -1000px );
 }

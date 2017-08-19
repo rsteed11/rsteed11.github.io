@@ -20,13 +20,16 @@
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>
+
   </head>
 
   <body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#">Ryan Steed</a>
+      <a class="navbar-brand" href="#home">Ryan Steed</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,7 +46,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="intro-header">
+    <header class="intro-header" id="home">
       <div class="container">
         <div class="intro-message">
           <h1>Ryan Steed</h1>
@@ -148,9 +151,9 @@ PoliScrape is a web archive scraper intended to collect, search and analyze fore
     </section>
     <!-- /.content-section-a -->
 
-    <section class="content-section-b">
+    <section class="content-section-b" id="about">
 
-      <div class="container" id="about">
+      <div class="container">
 
         <div class="row">
           <div class="col-lg-5 ml-auto">
@@ -214,7 +217,7 @@ PoliScrape is a web archive scraper intended to collect, search and analyze fore
       <div class="container">
         <ul class="list-inline">
           <li class="list-inline-item">
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li class="footer-menu-divider list-inline-item">&sdot;</li>
           <li class="list-inline-item">
