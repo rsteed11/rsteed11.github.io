@@ -199,7 +199,22 @@ footer a:hover {
   margin: 0 10px;
 }
 
+.list-docs {
+  margin-top: 0.75rem;
+  margin-left: 1.25rem;
+}
+
 .list-docs li {
   margin-bottom: 1%;
   font-weight: 400;
+}
+
+.accordion .card {
+  margin: 5px;
+}
+.accordion h5 {
+  font-weight: 500;
+}
+.accordion .card-header:hover {
+  cursor: pointer;
 }
