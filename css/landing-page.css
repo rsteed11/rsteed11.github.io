@@ -218,3 +218,7 @@ footer a:hover {
 .accordion .card-header:hover {
   cursor: pointer;
 }
+
+[data-toggle~="collapse"] {
+    cursor: pointer;
+}
