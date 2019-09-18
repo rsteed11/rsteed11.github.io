@@ -222,3 +222,8 @@ footer a:hover {
 [data-toggle~="collapse"] {
     cursor: pointer;
 }
+
+.centered {
+  margin-right: auto;
+  margin-left: auto;
+}
