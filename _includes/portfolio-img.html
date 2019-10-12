@@ -1,0 +1,12 @@
+<div class="col-md-5 m{{include.side}}-auto">
+  <hr class="section-heading-spacer">
+  <div class="clearfix"></div>
+  <h2 class="section-heading">
+    Featured Project:
+    <br>
+    <a target="_blank" href="{{item.url}}">{{include.title}}</a>
+  </h2>
+  <p class="lead">
+    {{include.description}} {% if include.github %}<a href="https://github.com/{{include.github}}"><i class="fa fa-github"></i></a>{% endif %}{% if include.news %}<a href="{{include.news}}"><i class="fas fa-rss-square"></i></a>{% endif %}
+  </p>
+</div>

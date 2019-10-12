@@ -1,0 +1,46 @@
+{% for item in site.data.portfolio %}
+  {% capture type %}{% cycle 'a', 'b' %}{% endcapture %}
+
+  <section id="portfolio" class="content-section-{{type}}">
+
+    <div class="container">
+      <div class="row">
+        {% if type == 'a' %}
+        <div class="col-md-5 ml-auto">
+          <img class="img-fluid" src="{{item.img}}" style="max-width: {{item.img-size}}" alt="">
+        </div>
+        <div class="col-md-5 mr-auto">
+          <hr class="section-heading-spacer">
+          <div class="clearfix"></div>
+          <h2 class="section-heading">
+            Featured Project:
+            <br>
+            <a target="_blank" href="{{item.url}}">{{item.title}}</a>
+          </h2>
+          <p class="lead">
+            {{item.description}} {% if item.github %}<a href="https://github.com/{{item.github}}"><i class="fa fa-github"></i></a>{% endif %}{% if item.news %}<a href="{{item.news}}"><i class="fas fa-rss-square"></i></a>{% endif %}
+          </p>
+        </div>
+        {% else %}
+        <div class="col-md-5 ml-auto">
+          <hr class="section-heading-spacer">
+          <div class="clearfix"></div>
+          <h2 class="section-heading">
+            Featured Project:
+            <br>
+            <a target="_blank" href="{{item.url}}">{{item.title}}</a>
+          </h2>
+          <p class="lead">
+            {{item.description}} {% if item.github %}<a href="https://github.com/{{item.github}}"><i class="fa fa-github"></i></a>{% endif %}{% if item.news %}<a href="{{item.news}}"><i class="fas fa-rss-square"></i></a>{% endif %}
+          </p>
+        </div>
+        <div class="col-md-5 mr-auto">
+          <img class="img-fluid" src="{{item.img}}" style="max-width: {{item.img-size}}" alt="">
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+
+{% endfor %}
