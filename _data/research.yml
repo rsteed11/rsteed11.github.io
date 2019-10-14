@@ -34,6 +34,9 @@
 - id: phil
   subject: Philosophy
   data:
+    - title: "The Utility of Pragmatism: William James’ Humanism as Individualized Utilitarianism"
+      date: 2019
+      url: docs/pragmatism.pdf
     - title: "AI is Heideggerian Enough, But Can It Be Authentic?"
       date: 2019
       url: docs/heideggerian-ai.pdf
