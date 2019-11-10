@@ -1,11 +1,17 @@
 - id: current
   subject: Current
   data:
+    - title: Heuristic Moral Decision-Making with Weak Supervision
+      date: 2019
+      meta: Thesis.
     - title: Sociocultural Bias in Face Recognition
       date: 2019
+    - title: A History of Economics in Data
+      date: 2019
     - title: The Effects of Patent Filing Acceleration on the Evolution of Technological Innovation
-      date: 2018
-      url: docs/datamaster/proposal.pdf
+      date: 2019
+      url: docs/datamaster/manuscript.pdf
+      meta: Working paper.
 - id: data-sci
   subject: Data Science
   data:
@@ -40,6 +46,7 @@
     - title: "AI is Heideggerian Enough, But Can It Be Authentic?"
       date: 2019
       url: docs/heideggerian-ai.pdf
+      meta: Working paper.
     - title: "Sufficient Reason and Infinite Regress: Causal Consistency in Descartes and Spinoza"
       date: 2018
       url: docs/descartes-spinoza.pdf
