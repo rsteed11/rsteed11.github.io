@@ -227,3 +227,28 @@ footer a:hover {
   margin-right: auto;
   margin-left: auto;
 }
+
+#about {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.navbar-fixed-top {
+  background-color: #51514D !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top .navbar-brand, .navbar-fixed-top .navbar-nav .nav-link {
+  color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #f8f9fa !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .navbar-brand, .navbar-fixed-top.scrolled .navbar-nav .nav-link {
+  color: #000 !important;
+  transition: background-color 200ms linear;
+}

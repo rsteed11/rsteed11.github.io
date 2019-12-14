@@ -13,8 +13,10 @@
           <hr class="section-heading-spacer">
           <div class="clearfix"></div>
           <h2 class="section-heading">
+            {% if item.featured %}
             Featured Project:
             <br>
+            {% endif %}
             <a target="_blank" href="{{item.url}}">{{item.title}}</a>
           </h2>
           <p class="lead">
@@ -26,8 +28,10 @@
           <hr class="section-heading-spacer">
           <div class="clearfix"></div>
           <h2 class="section-heading">
+            {% if item.featured %}
             Featured Project:
             <br>
+            {% endif %}
             <a target="_blank" href="{{item.url}}">{{item.title}}</a>
           </h2>
           <p class="lead">

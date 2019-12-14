@@ -7,7 +7,7 @@
     <meta property="og:description" content="Featured projects, bio, and contact information for Ryan Steed.">
     <meta name="author" content="Ryan Steed">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Ryan Steed - Personal Profile" />
+    <meta property="og:title" content="Ryan Steed - Homepage" />
     <meta property="og:url" content="https://ryansteed.github.io/"  />
     <meta property="og:image" content="img/RyanSteed_Headshot.jpg" />
     <meta property="og:image:width" content="100" />
@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 
-    <title>Ryan Steed - Portfolio</title>
+    <title>Ryan Steed - Homepage</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,15 +30,28 @@
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/scroll.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109682218-1"></script>
-  <script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109682218-1"></script>
+    <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-109682218-1');
-  </script>
+
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+    </script>
 
 
   </head>
