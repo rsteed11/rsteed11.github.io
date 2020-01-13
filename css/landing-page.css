@@ -238,6 +238,10 @@ footer a:hover {
   transition: background-color 200ms linear;
 }
 
+.navbar-fixed-top .navbar-toggler {
+  color: #f8f9fa;
+}
+
 .navbar-fixed-top .navbar-brand, .navbar-fixed-top .navbar-nav .nav-link {
   color: #fff !important;
   transition: background-color 200ms linear;
