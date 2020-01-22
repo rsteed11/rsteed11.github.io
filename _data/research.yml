@@ -6,7 +6,7 @@
       meta: Thesis.
     - title: Sociocultural Bias in Face Recognition
       date: 2019
-    - title: A History of Economics in Data
+    - title: "The Grand Narrative: A History of Economics in Data"
       date: 2019
     - title: The Effects of Patent Filing Acceleration on the Evolution of Technological Innovation
       date: 2019
@@ -40,6 +40,9 @@
 - id: phil
   subject: Philosophy
   data:
+    - title: A Pragmatic Argument for Experimental Welfare Policy
+      date: 2019
+      url: docs/pragmatic-welfare.pdf
     - title: "The Utility of Pragmatism: William James’ Humanism as Individualized Utilitarianism"
       date: 2019
       url: docs/pragmatism.pdf
@@ -50,12 +53,12 @@
     - title: "Sufficient Reason and Infinite Regress: Causal Consistency in Descartes and Spinoza"
       date: 2018
       url: docs/descartes-spinoza.pdf
-    - title: "Constructive Intolerance: A Critique of Laissez-Faire Liberalism"
-      date: 2018
-      url: docs/mill.pdf
-    - title: "Wallace Stevens' Emancipated Individual: A World of One's Own"
-      date: 2018
-      url: docs/stevens.pdf
+    # - title: "Constructive Intolerance: A Critique of Laissez-Faire Liberalism"
+    #   date: 2018
+    #   url: docs/mill.pdf
+    # - title: "Wallace Stevens' Emancipated Individual: A World of One's Own"
+    #   date: 2018
+    #   url: docs/stevens.pdf
     - title: "From Plato to Popper: Platonic Forms in Modern Science and Quantum Theory"
       date: 2017
       url: docs/plato-popper.pdf
