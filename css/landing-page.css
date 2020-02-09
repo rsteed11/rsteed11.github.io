@@ -257,3 +257,10 @@ footer a:hover {
   color: #000 !important;
   transition: background-color 200ms linear;
 }
+
+.list-group {
+    font-weight: 400;
+    max-height: 175px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
