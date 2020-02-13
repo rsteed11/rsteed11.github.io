@@ -29,7 +29,14 @@
               <ul class="list-inline list-docs">
                 {% for article in section.data %}
                 <li>
-                  <a {% if article.url %}href="{{article.url}}"{% endif %} target="_blank">{{article.title}}</a> &sdot; {{article.date}} {% if article.meta %}<br> <i>{{article.meta}}</i>{% endif %}
+                  <a {% if article.url %}href="{{article.url}}"{% endif %} target="_blank">{{article.title}}</a> &sdot; {{article.date}} 
+                  {% if article.meta %}<br> <i>{{article.meta}}</i>{% endif %}
+                  {% if article.authors %}
+                  <br><span class="authors">
+                    With
+                    {% for author in article.authors %}{% if forloop.first %}{{author}}{% elsif forloop.last %} and {{author}}{% else %}, {{author}}{% endif %}{% endfor %}.
+                  </span>
+                  {% endif %}
                 </li>
                 {% endfor %}
               </ul>

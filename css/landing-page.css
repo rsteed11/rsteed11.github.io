@@ -210,6 +210,11 @@ footer a:hover {
   font-weight: 400;
 }
 
+.list-docs .authors {
+  color: rgba(0,0,0,0.6);
+  font-size: 0.85rem;
+}
+
 .accordion .card {
   margin: 5px;
 }
