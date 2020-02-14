@@ -3,7 +3,7 @@
   data:
     - title: Machines Learn Appearance Bias in Face Recognition
       date: 2020
-      url: docs/appearance-bias.pdf
+      url: http://arxiv.org/abs/2002.05636
       authors:
         - Aylin Caliskan
       meta: Under review.
