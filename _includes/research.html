@@ -30,7 +30,7 @@
                 {% for article in section.data %}
                 <li>
                   <a {% if article.url %}href="{{article.url}}"{% endif %} target="_blank">{{article.title}}</a> &sdot; {{article.date}} 
-                  {% if article.meta %}<br> <i>{{article.meta}}</i>{% endif %}
+                  {% if article.meta %}<br> <i>{{article.meta}}</i>{% endif %}{% if article.top %} <i>Top {{article.top}}% of submissions.</i>{% endif %}
                   {% if article.authors %}
                   <br><span class="authors">
                     With
