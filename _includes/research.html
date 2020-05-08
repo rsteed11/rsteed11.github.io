@@ -47,24 +47,7 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-lg-9" style="margin: auto auto;">
-      <br>
-      <h4>News</h4>
-      <div class="list-group list-group-flush">
-        {% for news in site.data.news %}
-        <a href="{{news.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">{{news.header}}</h5>
-            <small>{{news.date}}</small>
-          </div>
-          <p class="mb-1">{{news.message}}</p>
-          <!-- <small>Donec id elit non mi porta.</small> -->
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+  {% include news.html %}
   <!-- /.container -->
 
 </section>
