@@ -1,3 +1,9 @@
+- title: Heuristic Moral Machines
+  url: https://rbsteed.com/heuristic-moral-machine
+  img: img/hmm.jpg
+  description: As automation proliferates and algorithms become increasingly responsible for high-stakes decision-making, AI agents face moral dilemmas in fields ranging from market design to robots. To lower the barrier to training moral agents, this research develops a heuristic-based weak learning approach to moral decision-making.
+  github: ryansteed/heuristic-moral-machine
+  exclude: true
 - title: Virtual Jane
   url: http://virtualjane.gwic.io
   img: img/jane-goodall.jpg
@@ -9,7 +15,7 @@
   img: img/network.png
   description: Innovation is important to growth and welfare, and nations sponsor research and craft legislation to encourage it. But how can we measure the impact of these investments? This research measures the spread of innovation with patent citation network analysis and explores the effect of recent legislation on knowledge flows between inventions.
   github: ryansteed/datamaster
-  featured: true
+  exclude: true
 - title: Magic Number
   url: https://magicnumberip.com
   img: img/patent_forecast.png
@@ -32,3 +38,4 @@
   description: To communalize the fashion process, the Thisfits team is building a streamlined social media app for real-time fashion feedback
           and documentation. Thisfits features social feeds where friends and strangers can collaborate on outfits and pieces.
   news: https://www.gwhatchet.com/2018/11/12/students-create-social-app-to-provide-style-advice/?fbclid=IwAR39mUl-Sf8RMJI8YFhPQMHgxzjkdvUxSRs-7HJGDV_d4hP4uZ9RjVjFIqQ
+  # exclude: true

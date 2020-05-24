@@ -1,5 +1,5 @@
-- id: ongoing
-  subject: Ongoing
+- id: current
+  subject: Current
   data:
     - title: Machines Learn Appearance Bias in Face Recognition
       date: 2020
