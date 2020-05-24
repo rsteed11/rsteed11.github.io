@@ -11,17 +11,14 @@
       date: 2020
       meta: Undergraduate thesis.
       url: https://arxiv.org/abs/2005.02342
-    - title: "The Grand Narrative: A Course on the History of Economics in Data"
-      date: 2019
       authors:
-        - Rahul Simha
-        - Ruoyu Chen
-        - Kristin Carline
-        - Bill Edison
+        - Ben Williams
     - title: The Effects of Patent Filing Acceleration on the Evolution of Technological Innovation
       date: 2019
       url: docs/datamaster/manuscript.pdf
       meta: Working paper.
+      authors:
+        - Rahul Simha
 - id: publications
   subject: Publications
   data:
@@ -77,10 +74,17 @@
     - title: "From Plato to Popper: Platonic Forms in Modern Science and Quantum Theory"
       date: 2017
       url: docs/plato-popper.pdf
-      meta: Winner of the GWU Honors Program Strasser Writing Prize.
+      meta: Winner of the GWU Strasser Writing Prize.
 - id: talks
-  subject: Talks & Presentations
+  subject: Talks, Presentations & Curriculum
   data:
+    - title: "The Grand Narrative: A Course on the History of Economics in Data"
+      date: 2019
+      authors:
+        - Rahul Simha
+        - Ruoyu Chen
+        - Kristin Carline
+        - Bill Edison
     - title: ML Document Classification
       date: 2018
       url: docs/ml-document-classification.html

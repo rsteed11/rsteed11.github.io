@@ -3,29 +3,29 @@
   img: img/hmm.jpg
   description: As automation proliferates and algorithms become increasingly responsible for high-stakes decision-making, AI agents face moral dilemmas in fields ranging from market design to robots. To lower the barrier to training moral agents, this research develops a heuristic-based weak learning approach to moral decision-making.
   github: ryansteed/heuristic-moral-machine
-  exclude: true
-- title: Virtual Jane
-  url: http://virtualjane.gwic.io
-  img: img/jane-goodall.jpg
-  description: The Virtual Jane project tells the story of Jane Goodall (primatologist, conservationist, and childhood hero) in a virtual reality mobile application. The <a href="http://gwic.io">GW Innovation Center</a> is also developing new curriculum programs to teach young leaders to be environmental advocates. The Tech for Social Good undergraduate minor seeks to inspire students to implement interdisciplinary solutions to environmental problems.
-  news: https://gwtoday.gwu.edu/bringing-dr-jane-goodall%E2%80%99s-mission-digital-age
-  featured: true
 - title: Evolution of Innovation
   url: http://rbsteed.com/datamaster
   img: img/network.png
   description: Innovation is important to growth and welfare, and nations sponsor research and craft legislation to encourage it. But how can we measure the impact of these investments? This research measures the spread of innovation with patent citation network analysis and explores the effect of recent legislation on knowledge flows between inventions.
   github: ryansteed/datamaster
-  exclude: true
+- title: Virtual Jane
+  url: http://virtualjane.gwic.io
+  img: img/jane-goodall.jpg
+  description: The Virtual Jane project tells the story of Jane Goodall (primatologist, conservationist, and childhood hero) in a virtual reality mobile application. The <a href="http://gwic.io">GW Innovation Center</a> is also developing new curriculum programs to teach young leaders to be environmental advocates.
+  news: https://gwtoday.gwu.edu/bringing-dr-jane-goodall%E2%80%99s-mission-digital-age
+  featured: true
 - title: Magic Number
   url: https://magicnumberip.com
   img: img/patent_forecast.png
   description: Magic Number identifies trends that emerge from USPTO patent data, using machine learning modeling techniques to cluster, categorize and forecast patent trends in a number of business sectors.
+  exclude: true
 - title: IWP5
   url: http://www.iwphys.org
   img: img/iwp5.png
   img-size: 90%
   description: Interactive Web Physics Version 5 is an HTML5/JavaScript/D3 physics simulation applet built for classroom use. Build and visualize physics simulations using parametric and Euler's calculations.
   github: ntbrock/iwphys
+  imgfit: contain
 - title: Star Skirmish
   url: http://rbsteed.com/star-skirmish
   img: img/starskirmish.png
@@ -38,4 +38,4 @@
   description: To communalize the fashion process, the Thisfits team is building a streamlined social media app for real-time fashion feedback
           and documentation. Thisfits features social feeds where friends and strangers can collaborate on outfits and pieces.
   news: https://www.gwhatchet.com/2018/11/12/students-create-social-app-to-provide-style-advice/?fbclid=IwAR39mUl-Sf8RMJI8YFhPQMHgxzjkdvUxSRs-7HJGDV_d4hP4uZ9RjVjFIqQ
-  # exclude: true
+  imgfit: contain
