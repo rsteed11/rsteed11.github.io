@@ -263,7 +263,7 @@ footer a:hover {
 
 .list-group {
     font-weight: 400;
-    max-height: 175px;
+    max-height: 270px;
     overflow:scroll;
     -webkit-overflow-scrolling: touch;
 }
