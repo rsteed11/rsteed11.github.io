@@ -43,15 +43,15 @@
     - title: A Pragmatic Argument for Experimental Welfare Policy
       date: 2019
       url: docs/pragmatic-welfare.pdf
-    - title: "The Utility of Pragmatism: William James’ Humanism as Individualized Utilitarianism"
-      date: 2019
-      url: docs/pragmatism.pdf
+    # - title: "The Utility of Pragmatism: William James’ Humanism as Individualized Utilitarianism"
+    #   date: 2019
+    #   url: docs/pragmatism.pdf
     - title: "AI is Heideggerian Enough, But Can It Be Authentic?"
       date: 2019
       url: docs/heideggerian-ai.pdf
-    - title: Effect of Religious Diversity on Growth
-      date: 2018
-      url: docs/religious-growth.pdf
+    # - title: Effect of Religious Diversity on Growth
+    #   date: 2018
+    #   url: docs/religious-growth.pdf
     - title: The Derivative Relational Attribute Graph Model for Link Prediction
       date: 2017
       url: docs/drag.pdf
