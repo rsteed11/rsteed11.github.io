@@ -263,9 +263,22 @@ footer a:hover {
 
 .list-group {
     font-weight: 400;
-    max-height: 270px;
+    max-height: 300px;
     overflow:scroll;
-    -webkit-overflow-scrolling: touch;
+}
+
+.list-group::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.list-group::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.list-group::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .card {
@@ -289,4 +302,13 @@ footer a:hover {
 
 a:hover {
   text-decoration: none;
+}
+
+.meta a {
+  color: #868e96;
+  /*text-decoration: underline;*/
+  /*font-style: normal;*/
+}
+.meta a:hover {
+  text-decoration: underline;
 }

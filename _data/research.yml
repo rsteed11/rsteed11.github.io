@@ -1,38 +1,32 @@
 - id: current
   subject: Current
   data:
+    - title: Heuristic-Based Weak Learning for Automated Decision-Making
+      date: 2020
+      meta: Participatory Approaches to Machine Learning @ ICML 2020.
+      url: https://arxiv.org/abs/2005.02342
+      authors:
+        - Ben Williams
     - title: Machines Learn Appearance Bias in Face Recognition
       date: 2020
       url: http://arxiv.org/abs/2002.05636
       authors:
         - Aylin Caliskan
       meta: Under review.
-    - title: Heuristic Moral Decision-Making with Weak Supervision
-      date: 2020
-      meta: Undergraduate thesis.
-      url: https://arxiv.org/abs/2005.02342
-      authors:
-        - Ben Williams
-    - title: The Effects of Patent Filing Acceleration on the Evolution of Technological Innovation
-      date: 2019
-      url: docs/datamaster/manuscript.pdf
-      meta: Working paper.
-      authors:
-        - Rahul Simha
 - id: publications
   subject: Publications
   data:
     - title: The Practice and Promise of Open Source Intelligence and Computational Security Studies
       date: 2017
       url: https://www.isanet.org/Portals/0/Media/Conferences/SouthOrlando2017/South%20Orlando%202017%20-%20Full%20Program.pdf
-      meta: Presented at International Studies Association South Annual Conference, Orlando.
+      meta: International Studies Association South Annual Conference, Orlando.
       authors:
         - W. A. Rivera
         - Abbey Rogers
     - title: A Deep Learning Approach for CAMEO Coding
       date: 2017
       url: docs/event-coding.pdf
-      meta: Presented at ISA South Conference, Orlando.
+      meta:  International Studies Association South Annual Conference, Orlando.
       authors:
         - Max Erdemandi
         - Rachel Augustine
@@ -40,6 +34,16 @@
 - id: manuscripts
   subject: Manuscripts
   data:
+    - title: Heuristic-Based Weak Learning for Moral Decision-Making
+      date: 2020
+      meta: Undergraduate thesis.
+      url: docs/thesis.pdf
+    - title: Measuring the Evolution of Innovation in Patent Citation Networks
+      date: 2019
+      url: docs/datamaster/manuscript.pdf
+      meta: Working paper.
+      authors:
+        - Rahul Simha
     - title: A Pragmatic Argument for Experimental Welfare Policy
       date: 2019
       url: docs/pragmatic-welfare.pdf
@@ -66,14 +70,15 @@
     # - title: "Wallace Stevens' Emancipated Individual: A World of One's Own"
     #   date: 2018
     #   url: docs/stevens.pdf
-    - title: "From Plato to Popper: Platonic Forms in Modern Science and Quantum Theory"
-      date: 2017
-      url: docs/plato-popper.pdf
-      meta: Winner of the GWU Strasser Writing Prize.
+    # - title: "From Plato to Popper: Platonic Forms in Modern Science and Quantum Theory"
+    #   date: 2017
+    #   url: docs/plato-popper.pdf
+    #   meta: Winner of the GWU Strasser Writing Prize.
 - id: talks
   subject: Talks, Presentations & Curriculum
   data:
-    - title: "The Grand Narrative: A Course on the History of Economics in Data"
+    - title: "The Grand Narrative: A History of Economics Through Data"
+      meta: Curriculum.
       date: 2020
       authors:
         - Rahul Simha

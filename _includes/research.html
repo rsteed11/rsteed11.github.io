@@ -11,7 +11,7 @@
         </h2>
 
         <p class="lead">
-          My research interests span fair and moral AI, computational economics, and philosophy of mind. I apply computing technology to social problems. 
+          My research interests span fair & responsible AI, privacy, and computational economics.
 
           <br><br>My undergraduate work was advised by <a href="https://www2.seas.gwu.edu/~aylin/">Aylin Caliskan</a>, <a href="https://www2.seas.gwu.edu/~simha/">Rahul Simha</a>, and <a href="https://benjamindwilliams.weebly.com">Ben Williams</a>.
         </p>
@@ -30,7 +30,7 @@
                 {% for article in section.data %}
                 <li>
                   <a {% if article.url %}href="{{article.url}}"{% endif %} target="_blank">{{article.title}}</a> &sdot; {{article.date}} 
-                  {% if article.meta %}<br> <i>{{article.meta}}</i>{% endif %}{% if article.top %} <i>Top {{article.top}}% of submissions.</i>{% endif %}
+                  {% if article.meta %}<br> <i class="meta">{{article.meta}}</i>{% endif %}{% if article.top %} <i>Top {{article.top}}% of submissions.</i>{% endif %}
                   {% if article.authors %}
                   <br><span class="authors">
                     With
