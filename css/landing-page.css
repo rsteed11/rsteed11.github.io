@@ -312,3 +312,7 @@ a:hover {
 .meta a:hover {
   text-decoration: underline;
 }
+
+.talk-resources li {
+  padding: 0.25em 0em;
+}

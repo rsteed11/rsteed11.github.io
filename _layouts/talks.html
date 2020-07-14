@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  {% include head.html %}
+
+  <body>
+
+  	{% include nav.html %}
+
+  	<div class="container" style="padding: 50px; font-weight: normal">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h1 class="mt-5">Presentation @ <a href="{{page.listing}}">{{page.venue}}</a></h1>
+				<p class="lead">"{{page.title}}"</p>
+				<ul class="list-unstyled talk-resources">
+				{% if page.slides %}
+					<li>View the slides <a href="{{page.slides}}" target="blank">here</a>.</li>
+				{% endif %}
+				{% if page.paper %}
+					<li>Read the paper <a href="{{paper}}" target="blank">here</a>.</li>
+				{% endif %}
+				{% if page.video %}
+					<li>
+						Watch the presentation <a href="{{page.video}}" target="blank">here</a>.
+					</li>
+				{% endif %}
+				{% if page.youtube %}
+					<li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{page.youtube}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+				{% endif %}
+				</ul>
+			</div>
+		</div>
+		{{content}}
+	</div>
+
+  </body>
+
+</html>
