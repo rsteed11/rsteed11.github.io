@@ -26,16 +26,16 @@
   description: Interactive Web Physics Version 5 is an HTML5/JavaScript/D3 physics simulation applet built for classroom use. Build and visualize physics simulations using parametric and Euler's calculations.
   github: ntbrock/iwphys
   imgfit: contain
-- title: Star Skirmish
-  url: http://rbsteed.com/star-skirmish
-  img: img/starskirmish.png
-  description: Star Wars meets Galaga in this arcade-style 2D space shooter, built with Java Swing GUI. Fly your X-Wing across a beautiful starscape, blasting the Death Star's TIE fighters. Turn on your sound to hear the original NAMCO Galaga soundtrack and sound effects.
-  github: ryansteed/star-skirmish
-- title: Thisfits
-  url: http://thisfits.io
-  img: img/thisfits.png
-  img-size: 60%
-  description: To communalize the fashion process, the Thisfits team is building a streamlined social media app for real-time fashion feedback
-          and documentation. Thisfits features social feeds where friends and strangers can collaborate on outfits and pieces.
-  news: https://www.gwhatchet.com/2018/11/12/students-create-social-app-to-provide-style-advice/?fbclid=IwAR39mUl-Sf8RMJI8YFhPQMHgxzjkdvUxSRs-7HJGDV_d4hP4uZ9RjVjFIqQ
-  imgfit: contain
+# - title: Star Skirmish
+#   url: http://rbsteed.com/star-skirmish
+#   img: img/starskirmish.png
+#   description: Star Wars meets Galaga in this arcade-style 2D space shooter, built with Java Swing GUI. Fly your X-Wing across a beautiful starscape, blasting the Death Star's TIE fighters. Turn on your sound to hear the original NAMCO Galaga soundtrack and sound effects.
+#   github: ryansteed/star-skirmish
+# - title: Thisfits
+#   url: http://thisfits.io
+#   img: img/thisfits.png
+#   img-size: 60%
+#   description: To communalize the fashion process, the Thisfits team is building a streamlined social media app for real-time fashion feedback
+#           and documentation. Thisfits features social feeds where friends and strangers can collaborate on outfits and pieces.
+#   news: https://www.gwhatchet.com/2018/11/12/students-create-social-app-to-provide-style-advice/?fbclid=IwAR39mUl-Sf8RMJI8YFhPQMHgxzjkdvUxSRs-7HJGDV_d4hP4uZ9RjVjFIqQ
+#   imgfit: contain
