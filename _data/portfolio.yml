@@ -1,6 +1,7 @@
 - title: Heuristic-Based Collective Participation
   url: https://rbsteed.com/heuristic-moral-machine
-  img: img/hmm.jpg
+  img: img/hmm-pipeline.png
+  imgfit: scale-down
   description: As algorithms become increasingly responsible for high-stakes decision-making, it is important for stakeholders and affected users to have influence over algorithmic policy. To lower the barrier to collective participation in ML systems, this research proposes an alternative method for incorporating stakeholder preferences in ML systems.
   github: ryansteed/heuristic-moral-machine
 - title: Evolution of Innovation
