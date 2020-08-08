@@ -75,7 +75,7 @@
     #   url: docs/plato-popper.pdf
     #   meta: Winner of the GWU Strasser Writing Prize.
 - id: talks
-  subject: Talks, Presentations & Curriculum
+  subject: Other Presentations & Curriculum
   data:
     - title: "The Grand Narrative: A History of Economics Through Data"
       meta: Curriculum.
