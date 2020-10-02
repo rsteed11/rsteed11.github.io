@@ -214,7 +214,7 @@ footer a:hover {
   font-weight: 400;
 }
 
-.list-docs .authors {
+.authors {
   color: rgba(0,0,0,0.6);
   font-size: 0.85rem;
 }
@@ -301,7 +301,10 @@ footer a:hover {
 }
 
 .card-body {
-  background-color: #f8f8f8;;
+  background-color: #f8f8f8;
+}
+.card-title {
+  margin-bottom: 0;
 }
 
 @media(max-width:767px) {

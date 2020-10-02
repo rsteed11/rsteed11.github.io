@@ -1,24 +1,39 @@
+- title: PINVAL
+  url: ./pinval
+  img: img/pinval.png
+  imgfit: scale-down 
+  description: How can we create transparent valuation reports for residential properties? With PINVAL, citizens of Cook County, Illinois can view their property's valuation & appeals history and explore model valuations for similar properties. PINVAL helps make government transparent and accountable to taxpayers. Public beta coming soon!
+  gitlab: ccao-data-science---modeling/applications/shiny_app_pinval
+  with: 
+    - Cook County Assessor's Office
+    - SolveForGood
 - title: Heuristic-Based Collective Participation
   url: https://rbsteed.com/heuristic-moral-machine
   img: img/hmm-pipeline.png
   imgfit: scale-down
   description: As algorithms become increasingly responsible for high-stakes decision-making, it is important for stakeholders and affected users to have influence over algorithmic policy. To lower the barrier to collective participation in ML systems, this research proposes an alternative method for incorporating stakeholder preferences in ML systems.
   github: ryansteed/heuristic-moral-machine
+  with: Ben Williams
+  exclude: true
 - title: Evolution of Innovation
   url: http://rbsteed.com/datamaster
   img: img/network.png
   description: Innovation is important to growth and welfare, and nations sponsor research and craft legislation to encourage it. But how can we measure the impact of these investments? This research measures the spread of innovation with patent citation network analysis and explores the effect of recent legislation on knowledge flows between inventions.
   github: ryansteed/datamaster
+  with: Rahul Simha
+  exclude: true
 - title: Virtual Jane
   url: http://virtualjane.gwic.io
   img: img/jane-goodall.jpg
   description: The Virtual Jane project tells the story of Jane Goodall (primatologist, conservationist, and childhood hero) in a virtual reality mobile application. The <a href="http://gwic.io">GW Innovation Center</a> is also developing new curriculum programs to teach young leaders to be environmental advocates.
   news: https://gwtoday.gwu.edu/bringing-dr-jane-goodall%E2%80%99s-mission-digital-age
+  with: the Jane Goodall Institute
   featured: true
 - title: Magic Number
   url: https://magicnumberip.com
   img: img/patent_forecast.png
   description: Magic Number identifies trends that emerge from USPTO patent data, using machine learning modeling techniques to cluster, categorize and forecast patent trends in a number of business sectors.
+  with: Magic Number IP
   exclude: true
 - title: IWP5
   url: http://www.iwphys.org
@@ -26,17 +41,20 @@
   img-size: 90%
   description: Interactive Web Physics Version 5 is an HTML5/JavaScript/D3 physics simulation applet built for classroom use. Build and visualize physics simulations using parametric and Euler's calculations.
   github: ntbrock/iwphys
+  with: Taylor Brockman
   imgfit: contain
-# - title: Star Skirmish
-#   url: http://rbsteed.com/star-skirmish
-#   img: img/starskirmish.png
-#   description: Star Wars meets Galaga in this arcade-style 2D space shooter, built with Java Swing GUI. Fly your X-Wing across a beautiful starscape, blasting the Death Star's TIE fighters. Turn on your sound to hear the original NAMCO Galaga soundtrack and sound effects.
-#   github: ryansteed/star-skirmish
-# - title: Thisfits
-#   url: http://thisfits.io
-#   img: img/thisfits.png
-#   img-size: 60%
-#   description: To communalize the fashion process, the Thisfits team is building a streamlined social media app for real-time fashion feedback
-#           and documentation. Thisfits features social feeds where friends and strangers can collaborate on outfits and pieces.
-#   news: https://www.gwhatchet.com/2018/11/12/students-create-social-app-to-provide-style-advice/?fbclid=IwAR39mUl-Sf8RMJI8YFhPQMHgxzjkdvUxSRs-7HJGDV_d4hP4uZ9RjVjFIqQ
-#   imgfit: contain
+- title: Star Skirmish
+  url: http://rbsteed.com/star-skirmish
+  img: img/starskirmish.png
+  description: Star Wars meets Galaga in this arcade-style 2D space shooter, built with Java Swing GUI. Fly your X-Wing across a beautiful starscape, blasting the Death Star's TIE fighters. Turn on your sound to hear the original NAMCO Galaga soundtrack and sound effects.
+  github: ryansteed/star-skirmish
+- title: Thisfits
+  url: http://thisfits.io
+  img: img/thisfits.png
+  img-size: 60%
+  description: To communalize the fashion process, the Thisfits team is building a streamlined social media app for real-time fashion feedback
+          and documentation. Thisfits features social feeds where friends and strangers can collaborate on outfits and pieces.
+  news: https://www.gwhatchet.com/2018/11/12/students-create-social-app-to-provide-style-advice/?fbclid=IwAR39mUl-Sf8RMJI8YFhPQMHgxzjkdvUxSRs-7HJGDV_d4hP4uZ9RjVjFIqQ
+  imgfit: contain
+  with: Sarah Shavin
+  exclude: true

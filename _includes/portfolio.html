@@ -17,7 +17,15 @@
             <h4 class="card-title">
               <a href="{{item.url}}">{{item.title}}</a>
             </h4>
-            <p class="card-text">{{item.description}} {% if item.github %}<a href="https://github.com/{{item.github}}"><i class="fa fa-github"></i></a>{% endif %}{% if item.news %}<a href="{{item.news}}"><i class="fas fa-rss-square"></i></a>{% endif %}</p>
+            {%if item.with %}
+            <p class="authors">with {% for author in item.with %}{% if forloop.first %}{{author}}{% elsif forloop.last %} and {{author}}{% else %}, {{author}}{% endif %}{% endfor %}
+            </p>
+            {% endif %}
+            <p class="card-text">{{item.description}} 
+              {% if item.github %}<a href="https://github.com/{{item.github}}"><i class="fa fa-github"></i></a>{% endif %}
+              {% if item.gitlab %}<a href="https://gitlab.com/{{item.gitlab}}"><i class="fa fa-gitlab"></i></a>{% endif %}
+              {% if item.news %}<a href="{{item.news}}"><i class="fas fa-rss-square"></i></a>{% endif %}
+            </p>
           </div>
         </div>
       </div>
