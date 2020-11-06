@@ -25,7 +25,7 @@
               <h5 class="mb-0">{{section.subject}}</h5>
             </div>
 
-            <div id="{{section.id}}" class="collapse{% if forloop.first %} show{% endif %}" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="{{section.id}}" class="collapse{% if section.open %} show{% endif %}" aria-labelledby="headingOne" data-parent="#accordionExample">
               <ul class="list-inline list-docs">
                 {% for article in section.data %}
                 <li>
