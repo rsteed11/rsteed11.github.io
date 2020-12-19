@@ -1,23 +1,22 @@
 - id: preprints
   subject: Working Papers
   open: True
-  data:
-    - title: Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases 
-      date: 2020
-      url: https://arxiv.org/abs/2010.15052
-      authors:
-        - Aylin Caliskan
-      meta: Under review.
-    - title: A Set of Distinct Facial Traits Learned by Machines Is Not Predictive of Appearance Bias in the Wild 
-      date: 2020
-      url: http://arxiv.org/abs/2002.05636
-      authors:
-        - Aylin Caliskan
-      meta: Forthcoming.
 - id: publications
   subject: Publications
   open: True
   data:
+    - title: Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases 
+      date: 2021
+      url: https://arxiv.org/abs/2010.15052
+      authors:
+        - Aylin Caliskan
+      meta: Proceedings of the ACM Conference on Fairness, Accountability, and Transparency (FAccT 2021).
+    - title: A Set of Distinct Facial Traits Learned by Machines Is Not Predictive of Appearance Bias in the Wild 
+      date: 2021
+      url: http://arxiv.org/abs/2002.05636
+      authors:
+        - Aylin Caliskan
+      meta: Forthcoming in <i style="font-style:normal">AI and Ethics</i>.
     - title: Heuristic-Based Weak Learning for Automated Decision-Making
       date: 2020
       meta: Participatory Approaches to Machine Learning @ ICML 2020.
