@@ -23,13 +23,6 @@
       url: https://arxiv.org/abs/2005.02342
       authors:
         - Ben Williams
-    - title: The Practice and Promise of Open Source Intelligence and Computational Security Studies
-      date: 2017
-      # url: https://www.isanet.org/Portals/0/Media/Conferences/SouthOrlando2017/South%20Orlando%202017%20-%20Full%20Program.pdf
-      meta: International Studies Association South Annual Conference, Orlando.
-      authors:
-        - W. A. Rivera
-        - Abbey Rogers
     - title: A Deep Learning Approach for CAMEO Coding
       date: 2017
       url: docs/event-coding.pdf
@@ -38,6 +31,13 @@
         - Max Erdemandi
         - Rachel Augustine
         - Lin Zhao
+    - title: The Practice and Promise of Open Source Intelligence and Computational Security Studies
+      date: 2017
+      # url: https://www.isanet.org/Portals/0/Media/Conferences/SouthOrlando2017/South%20Orlando%202017%20-%20Full%20Program.pdf
+      meta: International Studies Association South Annual Conference, Orlando.
+      authors:
+        - W. A. Rivera
+        - Abbey Rogers
 - id: manuscripts
   subject: Manuscripts
   data:
