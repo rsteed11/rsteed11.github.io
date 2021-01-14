@@ -1,2 +1,16 @@
 plugins:
   - jekyll-redirect-from
+
+exclude: [
+  docs/appearance-bias.pdf,
+  docs/democratic-peace.pdf,
+  docs/descartes-spinoza.pdf,
+  docs/drag.pdf,
+  docs/hobbes-locke-mill.pdf,
+  docs/mill.pdf,
+  docs/personal-statement.pdf,
+  docs/plato-popper.pdf,
+  docs/pragmatism.pdf,
+  docs/religious-growth,
+  docs/stevens.pdf
+]
