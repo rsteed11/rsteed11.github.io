@@ -25,7 +25,7 @@
         - Ben Williams
     - title: A Deep Learning Approach for CAMEO Coding
       date: 2017
-      url: docs/event-coding.pdf
+      # url: docs/event-coding.pdf
       meta:  International Studies Association South Annual Conference, Orlando.
       authors:
         - Max Erdemandi

@@ -12,5 +12,6 @@ exclude: [
   docs/plato-popper.pdf,
   docs/pragmatism.pdf,
   docs/religious-growth,
-  docs/stevens.pdf
+  docs/stevens.pdf,
+  docs/event-coding.pdf
 ]
