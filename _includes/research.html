@@ -39,6 +39,18 @@
                     {% for author in article.authors %}{% if forloop.first %}{{author}}{% elsif forloop.last %} and {{author}}{% else %}, {{author}}{% endif %}{% endfor %}.
                   </span>
                   {% endif %}
+                  {% if article.press %}
+                  <span class="press">
+                    <i class="fas fa-rss-square"></i> 
+                    {% for press in article.press %}
+                      {% if forloop.first %}{% elsif forloop.last %}
+                        and 
+                      {% else %}
+                        , 
+                      {% endif %}
+                      <a href="{{press.url}}">{{press.venue}}</a>{% endfor %}.
+                  </span>
+                  {% endif %}
                 </li>
                 {% endfor %}
               </ul>
