@@ -10,6 +10,11 @@
       url: https://arxiv.org/abs/2010.15052
       authors:
         - Aylin Caliskan
+      # press:
+      #   - url: https://www.technologyreview.com/2021/01/29/1017065/ai-image-generation-is-racist-sexist
+      #     venue: MIT Technology Review
+      #   - url: https://dave.medium.com
+      #     venue: OneZero @ Medium
       meta: Proceedings of the ACM Conference on Fairness, Accountability, and Transparency (FAccT 2021).
     - title: A Set of Distinct Facial Traits Learned by Machines Is Not Predictive of Appearance Bias in the Wild 
       date: 2021
@@ -31,13 +36,13 @@
         - Max Erdemandi
         - Rachel Augustine
         - Lin Zhao
-    - title: The Practice and Promise of Open Source Intelligence and Computational Security Studies
-      date: 2017
-      # url: https://www.isanet.org/Portals/0/Media/Conferences/SouthOrlando2017/South%20Orlando%202017%20-%20Full%20Program.pdf
-      meta: International Studies Association South Annual Conference, Orlando.
-      authors:
-        - W. A. Rivera
-        - Abbey Rogers
+    # - title: The Practice and Promise of Open Source Intelligence and Computational Security Studies
+    #   date: 2017
+    #   # url: https://www.isanet.org/Portals/0/Media/Conferences/SouthOrlando2017/South%20Orlando%202017%20-%20Full%20Program.pdf
+    #   meta: International Studies Association South Annual Conference, Orlando.
+    #   authors:
+    #     - W. A. Rivera
+    #     - Abbey Rogers
 - id: manuscripts
   subject: Manuscripts
   data:
