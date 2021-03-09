@@ -1,20 +1,24 @@
+- header: FAccT 2021
+  date: 2021-03-05
+  message: I'm (virtually) attending FAccT 2021 and presenting our paper on unsupervised bias in computer vision - DM me on Twitter or in the conference platform if you want to chat!
+  link: https://2021.facctconference.org
 - header: SolveForGood DataFest
   message: This summer, I contributed to an awesome transparency tool for the Cook County Assessor's Office. Check out our presentation at the SolveForGood DataFest!
-  date: 09/14/2020
+  date: 2020-09-14
   link: https://www.loom.com/share/4f06b30071ba44b6a5d924b0d05eb597
 - header: PAML @ ICML 2020
   message: Our paper was accepted to the Participatory Approaches to Machine Learning workshop! We propose and test an alternative way to elicit & incorporate stakeholder preferences in ML systems.
-  date: 07/10/2020
+  date: 2020-07-10
   link: https://participatoryml.github.io/
 - header: PhD @ CMU
   message: I'm excited to join Carnegie Mellon's Heinz College of Information Systems & Public Policy to start my PhD this fall. Thank you to all the wonderful people who helped me along the way!
-  date: 05/15/2020
+  date: 2020-05-15
   link: https://www.heinz.cmu.edu
-- header: AIES-2020
+- header: AIES 2020
   message: I'll be hanging out at AIES-2020! Say hi if you're around - I'm excited to learn about new work in the field.
-  date: 02/06/2020
+  date: 2020-02-06
   link: https://www.aies-conference.com/2020/
 - header: Undergrad Thesis
   message: I'm very proud to have (virtually) defended my undergraduate thesis in front of a wonderful committee of GWU faculty.
-  date: 04/28/2020
+  date: 2020-04-28
   link: https://arxiv.org/abs/2005.02342
