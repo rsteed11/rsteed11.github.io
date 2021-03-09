@@ -36,15 +36,16 @@
                   {% if article.authors %}
                   <br><span class="authors">
                     With
-                    {% for author in article.authors %}{% if forloop.first %}{{author}}{% elsif forloop.last %} and {{author}}{% else %}, {{author}}{% endif %}{% endfor %}.
+                    {% for author in article.authors %}{% if forloop.first %}{{author}}{% elsif forloop.last %} & {{author}}{% else %}, {{author}}{% endif %}{% endfor %}.
                   </span>
                   {% endif %}
                   {% if article.press %}
+                  <br>
                   <span class="press">
                     <i class="fas fa-rss-square"></i> 
                     {% for press in article.press %}
                       {% if forloop.first %}{% elsif forloop.last %}
-                        and 
+                        & 
                       {% else %}
                         , 
                       {% endif %}
