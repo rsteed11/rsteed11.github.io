@@ -10,13 +10,13 @@
       url: https://dl.acm.org/doi/10.1145/3442188.3445932
       authors:
         - Aylin Caliskan
-      # press:
-      #   - url: https://www.vice.com/en/article/y3gj3v/sexist-ai-is-even-more-sexist-than-we-thought
-      #     venue: Vice
-      #   - url: https://www.technologyreview.com/2021/01/29/1017065/ai-image-generation-is-racist-sexist
-      #     venue: MIT Technology Review
-      #   - url: https://onezero.medium.com/men-wear-suits-women-wear-bikinis-image-generating-algorithms-learn-biases-automatically-eee3d8a56f2e
-      #     venue: OneZero
+      press:
+        - url: https://www.vice.com/en/article/y3gj3v/sexist-ai-is-even-more-sexist-than-we-thought
+          venue: Vice
+        - url: https://www.technologyreview.com/2021/01/29/1017065/ai-image-generation-is-racist-sexist
+          venue: MIT Technology Review
+        - url: https://onezero.medium.com/men-wear-suits-women-wear-bikinis-image-generating-algorithms-learn-biases-automatically-eee3d8a56f2e
+          venue: OneZero
       meta: Proceedings of the ACM Conference on Fairness, Accountability, and Transparency (FAccT 2021).
     - title: A Set of Distinct Facial Traits Learned by Machines Is Not Predictive of Appearance Bias in the Wild 
       date: 2021
